@@ -5,18 +5,16 @@ This is a small web app that sends commands to my Logitech Harmony universal rem
 ## Install
 
 ```sh
-#install dependencies
+# install dependencies
 npm install
 
-#generate keys - when asked for a name, type the URL it will be served from
+# generate keys - when asked for a name, type the URL it will be served from
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
 
-#create a configuration file.
-#  Note the 3000 means wait 3 seconds after a bad
-#  password before allowing a new one to be tried.
+# create a configuration file.
 echo '{ "password": "YOUR-PASSWORD", "salt": "randomCharacters"}' >> config.json
 
-#run the server
+# run the server
 node remoter.js -p [YOUR-PORT]
 ```
 
