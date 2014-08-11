@@ -17,7 +17,7 @@ openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out c
 echo '{ "password": "YOUR-PASSWORD", "salt": "randomCharacters"}' >> config.json
 
 #run the server
-node remouter.js -p [YOUR-PORT]
+node remoter.js -p [YOUR-PORT]
 ```
 
 ## Trust the Keys
