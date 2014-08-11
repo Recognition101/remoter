@@ -1,0 +1,2198 @@
+{
+  "activity": [{
+    "suggestedDisplay": "Default",
+    "label": "AppleTV, Chromecast",
+    "id": "5096740",
+    "activityTypeDisplayName": "Default",
+    "controlGroup": [{
+      "name": "Volume",
+      "function": [{
+        "action": "{\"command\":\"Mute\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Mute",
+        "label": "Mute"
+      }, {
+        "action": "{\"command\":\"VolumeDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VolumeDown",
+        "label": "Volume Down"
+      }, {
+        "action": "{\"command\":\"VolumeUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VolumeUp",
+        "label": "Volume Up"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }, {
+        "action": "{\"command\":\"Select\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Select",
+        "label": "Select"
+      }]
+    }, {
+      "name": "TransportBasic",
+      "function": [{
+        "action": "{\"command\":\"Stop\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Stop",
+        "label": "Stop"
+      }, {
+        "action": "{\"command\":\"Play\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Play",
+        "label": "Play"
+      }, {
+        "action": "{\"command\":\"Rewind\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Rewind",
+        "label": "Rewind"
+      }, {
+        "action": "{\"command\":\"Pause\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Pause",
+        "label": "Pause"
+      }, {
+        "action": "{\"command\":\"FastForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "FastForward",
+        "label": "Fast Forward"
+      }]
+    }, {
+      "name": "TransportExtended",
+      "function": [{
+        "action": "{\"command\":\"SkipBack\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "SkipBackward",
+        "label": "Skip Backward"
+      }, {
+        "action": "{\"command\":\"SkipForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "SkipForward",
+        "label": "Skip Forward"
+      }]
+    }, {
+      "name": "NavigationDVD",
+      "function": [{
+        "action": "{\"command\":\"Menu\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Menu",
+        "label": "Menu"
+      }, {
+        "action": "{\"command\":\"Back\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Back",
+        "label": "Back"
+      }]
+    }, {
+      "name": "GameType3",
+      "function": [{
+        "action": "{\"command\":\"Home\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Home",
+        "label": "Home"
+      }]
+    }, {
+      "name": "NavigationExtended",
+      "function": [{
+        "action": "{\"command\":\"PageDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "PageDown",
+        "label": "Page Down"
+      }, {
+        "action": "{\"command\":\"PageUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "PageUp",
+        "label": "Page Up"
+      }]
+    }, {
+      "name": "DisplayMode",
+      "function": [{
+        "action": "{\"command\":\"Aspect\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Aspect",
+        "label": "Aspect"
+      }]
+    }],
+    "sequences": [],
+    "activityOrder": 1,
+    "isTuningDefault": false,
+    "fixit": {
+      "13208361": {
+        "id": "13208361",
+        "Power": "On"
+      },
+      "13208331": {
+        "id": "13208331",
+        "isManualPower": true
+      },
+      "13208317": {
+        "id": "13208317",
+        "Input": "CBL\/SAT",
+        "Power": "On"
+      },
+      "13208895": {
+        "id": "13208895",
+        "isManualPower": true
+      },
+      "13698589": {
+        "id": "13698589",
+        "isRelativePower": true,
+        "Power": "Off"
+      },
+      "20385444": {
+        "id": "20385444",
+        "isAlwaysOn": "true",
+        "isRelativePower": true,
+        "Power": "On"
+      },
+      "13208306": {
+        "id": "13208306",
+        "Input": "HDMI 1",
+        "Power": "On"
+      }
+    },
+    "type": "VirtualDvd",
+    "icon": "userdata: 0x4454c8",
+    "baseImageUri": "https:\/\/rcbu-test-ssl-amr.s3.amazonaws.com\/"
+  }, {
+    "suggestedDisplay": "Default",
+    "label": "Play Wii",
+    "id": "5394941",
+    "activityTypeDisplayName": "Default",
+    "controlGroup": [{
+      "name": "Volume",
+      "function": [{
+        "action": "{\"command\":\"Mute\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Mute",
+        "label": "Mute"
+      }, {
+        "action": "{\"command\":\"VolumeDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "VolumeDown",
+        "label": "Volume Down"
+      }, {
+        "action": "{\"command\":\"VolumeUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "VolumeUp",
+        "label": "Volume Up"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }]
+    }, {
+      "name": "GameType3",
+      "function": [{
+        "action": "{\"command\":\"A\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "WiiA",
+        "label": "A"
+      }, {
+        "action": "{\"command\":\"B\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "WiiB",
+        "label": "B"
+      }, {
+        "action": "{\"command\":\"Home\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "Home",
+        "label": "Home"
+      }, {
+        "action": "{\"command\":\"+\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "WiiPlus",
+        "label": "+"
+      }, {
+        "action": "{\"command\":\"-\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "WiiMinus",
+        "label": "-"
+      }, {
+        "action": "{\"command\":\"1\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "Wii1",
+        "label": "1"
+      }, {
+        "action": "{\"command\":\"2\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "Wii2",
+        "label": "2"
+      }]
+    }, {
+      "name": "DisplayMode",
+      "function": [{
+        "action": "{\"command\":\"Aspect\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Aspect",
+        "label": "Aspect"
+      }]
+    }],
+    "sequences": [],
+    "activityOrder": 4,
+    "isTuningDefault": false,
+    "fixit": {
+      "13208361": {
+        "id": "13208361",
+        "Power": "Off"
+      },
+      "13208331": {
+        "id": "13208331",
+        "isManualPower": true
+      },
+      "13208317": {
+        "id": "13208317",
+        "Power": "Off"
+      },
+      "13208895": {
+        "id": "13208895",
+        "isManualPower": true
+      },
+      "13698589": {
+        "id": "13698589",
+        "isRelativePower": true,
+        "Power": "On"
+      },
+      "20385444": {
+        "id": "20385444",
+        "isAlwaysOn": "true",
+        "isRelativePower": true,
+        "Power": "On"
+      },
+      "13208306": {
+        "id": "13208306",
+        "Input": "Component 2",
+        "Power": "On"
+      }
+    },
+    "type": "VirtualGameConsole",
+    "icon": "userdata: 0x4454c8",
+    "baseImageUri": "https:\/\/rcbu-test-ssl-amr.s3.amazonaws.com\/"
+  }, {
+    "suggestedDisplay": "Default",
+    "label": "PowerOff",
+    "id": "-1",
+    "activityTypeDisplayName": "Default",
+    "controlGroup": [],
+    "fixit": {
+      "13208361": {
+        "id": "13208361",
+        "Power": "Off"
+      },
+      "13208331": {
+        "id": "13208331",
+        "isManualPower": true
+      },
+      "13208317": {
+        "id": "13208317",
+        "Power": "Off"
+      },
+      "13208895": {
+        "id": "13208895",
+        "isManualPower": true
+      },
+      "13698589": {
+        "id": "13698589",
+        "isRelativePower": true,
+        "Power": "Off"
+      },
+      "20385444": {
+        "id": "20385444",
+        "isAlwaysOn": "true",
+        "isRelativePower": true,
+        "Power": "On"
+      },
+      "13208306": {
+        "id": "13208306",
+        "Power": "Off"
+      }
+    },
+    "sequences": [],
+    "icon": "Default",
+    "type": "PowerOff"
+  }, {
+    "suggestedDisplay": "Default",
+    "label": "Tower + Pi (AUX)",
+    "id": "5114133",
+    "activityTypeDisplayName": "Default",
+    "controlGroup": [{
+      "name": "NumericBasic",
+      "function": [{
+        "action": "{\"command\":\"0\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number0",
+        "label": "0"
+      }, {
+        "action": "{\"command\":\"1\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number1",
+        "label": "1"
+      }, {
+        "action": "{\"command\":\"2\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number2",
+        "label": "2"
+      }, {
+        "action": "{\"command\":\"3\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number3",
+        "label": "3"
+      }, {
+        "action": "{\"command\":\"4\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number4",
+        "label": "4"
+      }, {
+        "action": "{\"command\":\"5\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number5",
+        "label": "5"
+      }, {
+        "action": "{\"command\":\"6\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number6",
+        "label": "6"
+      }, {
+        "action": "{\"command\":\"7\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number7",
+        "label": "7"
+      }, {
+        "action": "{\"command\":\"8\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number8",
+        "label": "8"
+      }, {
+        "action": "{\"command\":\"9\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number9",
+        "label": "9"
+      }, {
+        "action": "{\"command\":\"Clear\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Clear",
+        "label": "Clear"
+      }]
+    }, {
+      "name": "Volume",
+      "function": [{
+        "action": "{\"command\":\"Mute\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Mute",
+        "label": "Mute"
+      }, {
+        "action": "{\"command\":\"VolumeDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VolumeDown",
+        "label": "Volume Down"
+      }, {
+        "action": "{\"command\":\"VolumeUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VolumeUp",
+        "label": "Volume Up"
+      }]
+    }, {
+      "name": "Channel",
+      "function": [{
+        "action": "{\"command\":\"ChannelPrev\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "PrevChannel",
+        "label": "Prev Channel"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }, {
+        "action": "{\"command\":\"Select\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Select",
+        "label": "Select"
+      }]
+    }, {
+      "name": "TransportBasic",
+      "function": [{
+        "action": "{\"command\":\"Stop\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Stop",
+        "label": "Stop"
+      }, {
+        "action": "{\"command\":\"Play\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Play",
+        "label": "Play"
+      }, {
+        "action": "{\"command\":\"Rewind\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Rewind",
+        "label": "Rewind"
+      }, {
+        "action": "{\"command\":\"Eject\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Eject",
+        "label": "Eject"
+      }, {
+        "action": "{\"command\":\"Pause\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Pause",
+        "label": "Pause"
+      }, {
+        "action": "{\"command\":\"FastForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "FastForward",
+        "label": "Fast Forward"
+      }]
+    }, {
+      "name": "TransportRecording",
+      "function": [{
+        "action": "{\"command\":\"Record\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Record",
+        "label": "Record"
+      }]
+    }, {
+      "name": "TransportExtended",
+      "function": [{
+        "action": "{\"command\":\"ChapterPrev\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "SkipBackward",
+        "label": "Skip Backward"
+      }, {
+        "action": "{\"command\":\"ChapterNext\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "SkipForward",
+        "label": "Skip Forward"
+      }]
+    }, {
+      "name": "NavigationDVD",
+      "function": [{
+        "action": "{\"command\":\"Return\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Return",
+        "label": "Return"
+      }, {
+        "action": "{\"command\":\"Menu\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Menu",
+        "label": "Menu"
+      }, {
+        "action": "{\"command\":\"Subtitle\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Subtitle",
+        "label": "Subtitle"
+      }]
+    }, {
+      "name": "PlayMode",
+      "function": [{
+        "action": "{\"command\":\"Repeat\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Repeat",
+        "label": "Repeat"
+      }]
+    }, {
+      "name": "NavigationExtended",
+      "function": [{
+        "action": "{\"command\":\"Guide\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Guide",
+        "label": "Guide"
+      }, {
+        "action": "{\"command\":\"Info\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Info",
+        "label": "Info"
+      }, {
+        "action": "{\"command\":\"Exit\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Exit",
+        "label": "Exit"
+      }]
+    }, {
+      "name": "DisplayMode",
+      "function": [{
+        "action": "{\"command\":\"Aspect\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Aspect",
+        "label": "Aspect"
+      }]
+    }],
+    "sequences": [],
+    "activityOrder": 3,
+    "isTuningDefault": false,
+    "fixit": {
+      "13208361": {
+        "id": "13208361",
+        "Power": "Off"
+      },
+      "13208331": {
+        "id": "13208331",
+        "isManualPower": true
+      },
+      "13208317": {
+        "id": "13208317",
+        "Input": "Aux",
+        "Power": "On"
+      },
+      "13208895": {
+        "id": "13208895",
+        "isManualPower": true
+      },
+      "13698589": {
+        "id": "13698589",
+        "isRelativePower": true,
+        "Power": "Off"
+      },
+      "20385444": {
+        "isAlwaysOn": "true",
+        "Power": "On",
+        "Input": "Tuner",
+        "isRelativePower": true,
+        "id": "20385444"
+      },
+      "13208306": {
+        "id": "13208306",
+        "Input": "HDMI 1",
+        "Power": "On"
+      }
+    },
+    "type": "VirtualGameConsole",
+    "icon": "userdata: 0x4454c8",
+    "baseImageUri": "https:\/\/rcbu-test-ssl-amr.s3.amazonaws.com\/"
+  }, {
+    "suggestedDisplay": "Default",
+    "label": "Xbox",
+    "id": "5096721",
+    "activityTypeDisplayName": "Default",
+    "controlGroup": [{
+      "name": "NumericBasic",
+      "function": [{
+        "action": "{\"command\":\"0\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number0",
+        "label": "0"
+      }, {
+        "action": "{\"command\":\"1\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number1",
+        "label": "1"
+      }, {
+        "action": "{\"command\":\"2\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number2",
+        "label": "2"
+      }, {
+        "action": "{\"command\":\"3\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number3",
+        "label": "3"
+      }, {
+        "action": "{\"command\":\"4\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number4",
+        "label": "4"
+      }, {
+        "action": "{\"command\":\"5\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number5",
+        "label": "5"
+      }, {
+        "action": "{\"command\":\"6\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number6",
+        "label": "6"
+      }, {
+        "action": "{\"command\":\"7\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number7",
+        "label": "7"
+      }, {
+        "action": "{\"command\":\"8\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number8",
+        "label": "8"
+      }, {
+        "action": "{\"command\":\"9\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number9",
+        "label": "9"
+      }, {
+        "action": "{\"command\":\"Clear\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Clear",
+        "label": "Clear"
+      }]
+    }, {
+      "name": "Volume",
+      "function": [{
+        "action": "{\"command\":\"Mute\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Mute",
+        "label": "Mute"
+      }, {
+        "action": "{\"command\":\"VolumeDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VolumeDown",
+        "label": "Volume Down"
+      }, {
+        "action": "{\"command\":\"VolumeUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VolumeUp",
+        "label": "Volume Up"
+      }]
+    }, {
+      "name": "Channel",
+      "function": [{
+        "action": "{\"command\":\"ChannelPrev\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "PrevChannel",
+        "label": "Prev Channel"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }, {
+        "action": "{\"command\":\"Select\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Select",
+        "label": "Select"
+      }]
+    }, {
+      "name": "TransportBasic",
+      "function": [{
+        "action": "{\"command\":\"Stop\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Stop",
+        "label": "Stop"
+      }, {
+        "action": "{\"command\":\"Play\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Play",
+        "label": "Play"
+      }, {
+        "action": "{\"command\":\"Rewind\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Rewind",
+        "label": "Rewind"
+      }, {
+        "action": "{\"command\":\"Eject\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Eject",
+        "label": "Eject"
+      }, {
+        "action": "{\"command\":\"Pause\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Pause",
+        "label": "Pause"
+      }, {
+        "action": "{\"command\":\"FastForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "FastForward",
+        "label": "Fast Forward"
+      }]
+    }, {
+      "name": "TransportRecording",
+      "function": [{
+        "action": "{\"command\":\"Record\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Record",
+        "label": "Record"
+      }]
+    }, {
+      "name": "TransportExtended",
+      "function": [{
+        "action": "{\"command\":\"ChapterPrev\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "SkipBackward",
+        "label": "Skip Backward"
+      }, {
+        "action": "{\"command\":\"ChapterNext\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "SkipForward",
+        "label": "Skip Forward"
+      }]
+    }, {
+      "name": "NavigationDVD",
+      "function": [{
+        "action": "{\"command\":\"Return\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Return",
+        "label": "Return"
+      }, {
+        "action": "{\"command\":\"Menu\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Menu",
+        "label": "Menu"
+      }, {
+        "action": "{\"command\":\"Subtitle\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Subtitle",
+        "label": "Subtitle"
+      }]
+    }, {
+      "name": "PlayMode",
+      "function": [{
+        "action": "{\"command\":\"Repeat\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Repeat",
+        "label": "Repeat"
+      }]
+    }, {
+      "name": "NavigationExtended",
+      "function": [{
+        "action": "{\"command\":\"Guide\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Guide",
+        "label": "Guide"
+      }, {
+        "action": "{\"command\":\"Info\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Info",
+        "label": "Info"
+      }, {
+        "action": "{\"command\":\"Exit\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Exit",
+        "label": "Exit"
+      }]
+    }, {
+      "name": "DisplayMode",
+      "function": [{
+        "action": "{\"command\":\"Aspect\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Aspect",
+        "label": "Aspect"
+      }]
+    }],
+    "sequences": [],
+    "activityOrder": 0,
+    "isTuningDefault": false,
+    "fixit": {
+      "13208361": {
+        "id": "13208361",
+        "Power": "Off"
+      },
+      "13208331": {
+        "id": "13208331",
+        "isManualPower": true
+      },
+      "13208317": {
+        "id": "13208317",
+        "Input": "Game",
+        "Power": "On"
+      },
+      "13208895": {
+        "id": "13208895",
+        "isManualPower": true
+      },
+      "13698589": {
+        "id": "13698589",
+        "isRelativePower": true,
+        "Power": "Off"
+      },
+      "20385444": {
+        "id": "20385444",
+        "isAlwaysOn": "true",
+        "isRelativePower": true,
+        "Power": "On"
+      },
+      "13208306": {
+        "id": "13208306",
+        "Input": "HDMI 1",
+        "Power": "On"
+      }
+    },
+    "type": "VirtualGameConsole",
+    "icon": "userdata: 0x4454c8",
+    "baseImageUri": "https:\/\/rcbu-test-ssl-amr.s3.amazonaws.com\/"
+  }, {
+    "suggestedDisplay": "Default",
+    "label": "All Off (AC)",
+    "id": "5114079",
+    "activityTypeDisplayName": "Default",
+    "controlGroup": [],
+    "sequences": [],
+    "activityOrder": 2,
+    "isTuningDefault": false,
+    "fixit": {
+      "13208361": {
+        "id": "13208361",
+        "Power": "Off"
+      },
+      "13208331": {
+        "id": "13208331",
+        "isManualPower": true
+      },
+      "13208317": {
+        "id": "13208317",
+        "Power": "Off"
+      },
+      "13208895": {
+        "id": "13208895",
+        "isManualPower": true
+      },
+      "13698589": {
+        "id": "13698589",
+        "isRelativePower": true,
+        "Power": "Off"
+      },
+      "20385444": {
+        "id": "20385444",
+        "isAlwaysOn": "true",
+        "isRelativePower": true,
+        "Power": "On"
+      },
+      "13208306": {
+        "id": "13208306",
+        "Power": "Off"
+      }
+    },
+    "type": "VirtualGeneric",
+    "icon": "userdata: 0x4454c8",
+    "baseImageUri": "https:\/\/rcbu-test-ssl-amr.s3.amazonaws.com\/"
+  }],
+  "device": [{
+    "Transport": 1,
+    "suggestedDisplay": "DEFAULT",
+    "deviceTypeDisplayName": "MediaCenterPC",
+    "label": "Apple TV",
+    "id": "13208361",
+    "Capabilities": [1, 2, 3, 4, 5, 6, 8, 9, 10, 15],
+    "type": "MediaCenterPC",
+    "DongleRFID": 0,
+    "controlGroup": [{
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }, {
+        "action": "{\"command\":\"Select\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Select",
+        "label": "Select"
+      }]
+    }, {
+      "name": "TransportBasic",
+      "function": [{
+        "action": "{\"command\":\"Stop\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Stop",
+        "label": "Stop"
+      }, {
+        "action": "{\"command\":\"Play\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Play",
+        "label": "Play"
+      }, {
+        "action": "{\"command\":\"Rewind\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Rewind",
+        "label": "Rewind"
+      }, {
+        "action": "{\"command\":\"Pause\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Pause",
+        "label": "Pause"
+      }, {
+        "action": "{\"command\":\"FastForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "FastForward",
+        "label": "Fast Forward"
+      }]
+    }, {
+      "name": "TransportExtended",
+      "function": [{
+        "action": "{\"command\":\"SkipBack\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "SkipBackward",
+        "label": "Skip Backward"
+      }, {
+        "action": "{\"command\":\"SkipForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "SkipForward",
+        "label": "Skip Forward"
+      }]
+    }, {
+      "name": "NavigationDVD",
+      "function": [{
+        "action": "{\"command\":\"Menu\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Menu",
+        "label": "Menu"
+      }, {
+        "action": "{\"command\":\"Back\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Back",
+        "label": "Back"
+      }]
+    }, {
+      "name": "NavigationExtended",
+      "function": [{
+        "action": "{\"command\":\"PageDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "PageDown",
+        "label": "Page Down"
+      }, {
+        "action": "{\"command\":\"PageUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "PageUp",
+        "label": "Page Up"
+      }]
+    }, {
+      "name": "Miscellaneous",
+      "function": [{
+        "action": "{\"command\":\"Home\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Home",
+        "label": "Home"
+      }, {
+        "action": "{\"command\":\"NextChapter\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "NextChapter",
+        "label": "NextChapter"
+      }, {
+        "action": "{\"command\":\"Pair\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Pair",
+        "label": "Pair"
+      }, {
+        "action": "{\"command\":\"PrevChapter\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "PrevChapter",
+        "label": "PrevChapter"
+      }, {
+        "action": "{\"command\":\"Reset\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "Reset",
+        "label": "Reset"
+      }, {
+        "action": "{\"command\":\"UnPair\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "UnPair",
+        "label": "UnPair"
+      }, {
+        "action": "{\"command\":\"VideoMode\",\"type\":\"IRCommand\",\"deviceId\":\"13208361\"}",
+        "name": "VideoMode",
+        "label": "VideoMode"
+      }]
+    }],
+    "ControlPort": 7,
+    "IsKeyboardAssociated": false,
+    "model": "Apple TV",
+    "deviceProfileUri": "svcs.myharmony.com\/res\/device\/13208361-8U6UUyVbbc90GNtOAMNLqpUrnCtz2qiGKMzzjyzUnQs=",
+    "manufacturer": "Apple",
+    "icon": "35",
+    "isManualPower": "false"
+  }, {
+    "Transport": 1,
+    "suggestedDisplay": "DEFAULT",
+    "deviceTypeDisplayName": "GameConsoleWithDvd",
+    "label": "Microsoft Xbox",
+    "id": "13208331",
+    "Capabilities": [4, 5, 6, 9, 10],
+    "type": "GameConsoleWithDvd",
+    "DongleRFID": 0,
+    "controlGroup": [{
+      "name": "Power",
+      "function": [{
+        "action": "{\"command\":\"PowerOff\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "PowerOff",
+        "label": "Power Off"
+      }, {
+        "action": "{\"command\":\"PowerOn\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "PowerOn",
+        "label": "Power On"
+      }, {
+        "action": "{\"command\":\"PowerToggle\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "PowerToggle",
+        "label": "Power Toggle"
+      }]
+    }, {
+      "name": "NumericBasic",
+      "function": [{
+        "action": "{\"command\":\"0\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number0",
+        "label": "0"
+      }, {
+        "action": "{\"command\":\"1\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number1",
+        "label": "1"
+      }, {
+        "action": "{\"command\":\"2\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number2",
+        "label": "2"
+      }, {
+        "action": "{\"command\":\"3\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number3",
+        "label": "3"
+      }, {
+        "action": "{\"command\":\"4\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number4",
+        "label": "4"
+      }, {
+        "action": "{\"command\":\"5\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number5",
+        "label": "5"
+      }, {
+        "action": "{\"command\":\"6\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number6",
+        "label": "6"
+      }, {
+        "action": "{\"command\":\"7\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number7",
+        "label": "7"
+      }, {
+        "action": "{\"command\":\"8\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number8",
+        "label": "8"
+      }, {
+        "action": "{\"command\":\"9\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Number9",
+        "label": "9"
+      }, {
+        "action": "{\"command\":\"Clear\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Clear",
+        "label": "Clear"
+      }]
+    }, {
+      "name": "Channel",
+      "function": [{
+        "action": "{\"command\":\"ChannelPrev\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "PrevChannel",
+        "label": "Prev Channel"
+      }, {
+        "action": "{\"command\":\"ChannelDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "ChannelDown",
+        "label": "Channel Down"
+      }, {
+        "action": "{\"command\":\"ChannelUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "ChannelUp",
+        "label": "Channel Up"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }, {
+        "action": "{\"command\":\"Select\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Select",
+        "label": "Select"
+      }]
+    }, {
+      "name": "TransportBasic",
+      "function": [{
+        "action": "{\"command\":\"Stop\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Stop",
+        "label": "Stop"
+      }, {
+        "action": "{\"command\":\"Play\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Play",
+        "label": "Play"
+      }, {
+        "action": "{\"command\":\"Rewind\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Rewind",
+        "label": "Rewind"
+      }, {
+        "action": "{\"command\":\"Eject\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Eject",
+        "label": "Eject"
+      }, {
+        "action": "{\"command\":\"Pause\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Pause",
+        "label": "Pause"
+      }, {
+        "action": "{\"command\":\"FastForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "FastForward",
+        "label": "Fast Forward"
+      }]
+    }, {
+      "name": "TransportRecording",
+      "function": [{
+        "action": "{\"command\":\"Record\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Record",
+        "label": "Record"
+      }]
+    }, {
+      "name": "TransportExtended",
+      "function": [{
+        "action": "{\"command\":\"ChapterPrev\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "SkipBackward",
+        "label": "Skip Backward"
+      }, {
+        "action": "{\"command\":\"ChapterNext\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "SkipForward",
+        "label": "Skip Forward"
+      }]
+    }, {
+      "name": "NavigationDVD",
+      "function": [{
+        "action": "{\"command\":\"Return\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Return",
+        "label": "Return"
+      }, {
+        "action": "{\"command\":\"Menu\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Menu",
+        "label": "Menu"
+      }, {
+        "action": "{\"command\":\"Subtitle\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Subtitle",
+        "label": "Subtitle"
+      }, {
+        "action": "{\"command\":\"Audio\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Audio",
+        "label": "Audio"
+      }, {
+        "action": "{\"command\":\"Angle\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Angle",
+        "label": "Angle"
+      }]
+    }, {
+      "name": "PlayMode",
+      "function": [{
+        "action": "{\"command\":\"Repeat\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Repeat",
+        "label": "Repeat"
+      }]
+    }, {
+      "name": "NavigationExtended",
+      "function": [{
+        "action": "{\"command\":\"Guide\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Guide",
+        "label": "Guide"
+      }, {
+        "action": "{\"command\":\"Info\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Info",
+        "label": "Info"
+      }, {
+        "action": "{\"command\":\"Exit\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Exit",
+        "label": "Exit"
+      }]
+    }, {
+      "name": "DisplayMode",
+      "function": [{
+        "action": "{\"command\":\"Display\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Display",
+        "label": "Display"
+      }, {
+        "action": "{\"command\":\"Zoom\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Zoom",
+        "label": "Zoom"
+      }]
+    }, {
+      "name": "Miscellaneous",
+      "function": [{
+        "action": "{\"command\":\"3D\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "3D",
+        "label": "3D"
+      }, {
+        "action": "{\"command\":\"Advance\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Advance",
+        "label": "Advance"
+      }, {
+        "action": "{\"command\":\"DiscSkip\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "DiscSkip",
+        "label": "DiscSkip"
+      }, {
+        "action": "{\"command\":\"HDMI\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "HDMI",
+        "label": "HDMI"
+      }, {
+        "action": "{\"command\":\"InputNext\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "InputNext",
+        "label": "InputNext"
+      }, {
+        "action": "{\"command\":\"InputVcr\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "InputVcr",
+        "label": "InputVcr"
+      }, {
+        "action": "{\"command\":\"Mode\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Mode",
+        "label": "Mode"
+      }, {
+        "action": "{\"command\":\"Open DVD\\\/CD\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Open DVD\/CD",
+        "label": "Open DVD\/CD"
+      }, {
+        "action": "{\"command\":\"Random\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Random",
+        "label": "Random"
+      }, {
+        "action": "{\"command\":\"Replay\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Replay",
+        "label": "Replay"
+      }, {
+        "action": "{\"command\":\"SkipBackward\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "SkipBackward",
+        "label": "SkipBackward"
+      }, {
+        "action": "{\"command\":\"SkipForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "SkipForward",
+        "label": "SkipForward"
+      }, {
+        "action": "{\"command\":\"Title\",\"type\":\"IRCommand\",\"deviceId\":\"13208331\"}",
+        "name": "Title",
+        "label": "Title"
+      }]
+    }],
+    "ControlPort": 7,
+    "IsKeyboardAssociated": false,
+    "model": "XBOX",
+    "deviceProfileUri": "svcs.myharmony.com\/res\/device\/13208331-5xOUtjcKTBUOjqM8LM0zHD\/Gcnc5m0a\/rYtNHCS4JV0=",
+    "manufacturer": "Microsoft",
+    "icon": "23",
+    "isManualPower": "true"
+  }, {
+    "Transport": 1,
+    "suggestedDisplay": "DEFAULT",
+    "deviceTypeDisplayName": "StereoReceiver",
+    "label": "Denon AV Receiver",
+    "id": "13208317",
+    "Capabilities": [1, 5, 8],
+    "type": "StereoReceiver",
+    "DongleRFID": 0,
+    "controlGroup": [{
+      "name": "Power",
+      "function": [{
+        "action": "{\"command\":\"PowerOff\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "PowerOff",
+        "label": "Power Off"
+      }, {
+        "action": "{\"command\":\"PowerOn\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "PowerOn",
+        "label": "Power On"
+      }, {
+        "action": "{\"command\":\"PowerToggle\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "PowerToggle",
+        "label": "Power Toggle"
+      }]
+    }, {
+      "name": "Volume",
+      "function": [{
+        "action": "{\"command\":\"Mute\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Mute",
+        "label": "Mute"
+      }, {
+        "action": "{\"command\":\"VolumeDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VolumeDown",
+        "label": "Volume Down"
+      }, {
+        "action": "{\"command\":\"VolumeUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VolumeUp",
+        "label": "Volume Up"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }, {
+        "action": "{\"command\":\"Select\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Select",
+        "label": "Select"
+      }]
+    }, {
+      "name": "NavigationDVD",
+      "function": [{
+        "action": "{\"command\":\"Return\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Return",
+        "label": "Return"
+      }]
+    }, {
+      "name": "RadioTuner",
+      "function": [{
+        "action": "{\"command\":\"FM\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "FM",
+        "label": "FM"
+      }, {
+        "action": "{\"command\":\"PresetPrev\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "PrevPreset",
+        "label": "Prev Preset"
+      }, {
+        "action": "{\"command\":\"TuneDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "ScanDown",
+        "label": "Scan Down"
+      }, {
+        "action": "{\"command\":\"TuneUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "ScanUp",
+        "label": "Scan Up"
+      }, {
+        "action": "{\"command\":\"PresetNext\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "NextPreset",
+        "label": "Next Preset"
+      }]
+    }, {
+      "name": "Setup",
+      "function": [{
+        "action": "{\"command\":\"Setup\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Setup",
+        "label": "Setup"
+      }, {
+        "action": "{\"command\":\"Sleep\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Sleep",
+        "label": "Sleep"
+      }]
+    }, {
+      "name": "NavigationExtended",
+      "function": [{
+        "action": "{\"command\":\"Info\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Info",
+        "label": "Info"
+      }, {
+        "action": "{\"command\":\"PageDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "PageDown",
+        "label": "Page Down"
+      }, {
+        "action": "{\"command\":\"PageUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "PageUp",
+        "label": "Page Up"
+      }]
+    }, {
+      "name": "Miscellaneous",
+      "function": [{
+        "action": "{\"command\":\"AppleTv\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "AppleTv",
+        "label": "AppleTv"
+      }, {
+        "action": "{\"command\":\"Chrome Cast\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Chrome Cast",
+        "label": "Chrome Cast"
+      }, {
+        "action": "{\"command\":\"Chromecast\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Chromecast",
+        "label": "Chromecast"
+      }, {
+        "action": "{\"command\":\"Direct\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Direct",
+        "label": "Direct"
+      }, {
+        "action": "{\"command\":\"Direct\\\/PureDirect\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Direct\/PureDirect",
+        "label": "Direct\/PureDirect"
+      }, {
+        "action": "{\"command\":\"Direct\\\/Stereo\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Direct\/Stereo",
+        "label": "Direct\/Stereo"
+      }, {
+        "action": "{\"command\":\"DolbyPLIICinema\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DolbyPLIICinema",
+        "label": "DolbyPLIICinema"
+      }, {
+        "action": "{\"command\":\"DolbyPLIIMusic\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DolbyPLIIMusic",
+        "label": "DolbyPLIIMusic"
+      }, {
+        "action": "{\"command\":\"DolbyPrologic\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DolbyPrologic",
+        "label": "DolbyPrologic"
+      }, {
+        "action": "{\"command\":\"DSPSimulation\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DSPSimulation",
+        "label": "DSPSimulation"
+      }, {
+        "action": "{\"command\":\"DTSNeo6Cinema\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DTSNeo6Cinema",
+        "label": "DTSNeo6Cinema"
+      }, {
+        "action": "{\"command\":\"DTSNeo6Music\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DTSNeo6Music",
+        "label": "DTSNeo6Music"
+      }, {
+        "action": "{\"command\":\"DTSSurround\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "DTSSurround",
+        "label": "DTSSurround"
+      }, {
+        "action": "{\"command\":\"GameSurround\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "GameSurround",
+        "label": "GameSurround"
+      }, {
+        "action": "{\"command\":\"InputAux\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputAux",
+        "label": "InputAux"
+      }, {
+        "action": "{\"command\":\"InputBluray\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputBluray",
+        "label": "InputBluray"
+      }, {
+        "action": "{\"command\":\"InputCbl\\\/Sat\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputCbl\/Sat",
+        "label": "InputCbl\/Sat"
+      }, {
+        "action": "{\"command\":\"InputDvd\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputDvd",
+        "label": "InputDvd"
+      }, {
+        "action": "{\"command\":\"InputGame\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputGame",
+        "label": "InputGame"
+      }, {
+        "action": "{\"command\":\"InputInternetRadio\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputInternetRadio",
+        "label": "InputInternetRadio"
+      }, {
+        "action": "{\"command\":\"InputiPod\\\/Usb\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputiPod\/Usb",
+        "label": "InputiPod\/Usb"
+      }, {
+        "action": "{\"command\":\"InputNetwork\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputNetwork",
+        "label": "InputNetwork"
+      }, {
+        "action": "{\"command\":\"InputTvAudio\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "InputTvAudio",
+        "label": "InputTvAudio"
+      }, {
+        "action": "{\"command\":\"iPodNextTrack\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "iPodNextTrack",
+        "label": "iPodNextTrack"
+      }, {
+        "action": "{\"command\":\"iPodPause\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "iPodPause",
+        "label": "iPodPause"
+      }, {
+        "action": "{\"command\":\"iPodPlay\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "iPodPlay",
+        "label": "iPodPlay"
+      }, {
+        "action": "{\"command\":\"iPodPreviousTrack\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "iPodPreviousTrack",
+        "label": "iPodPreviousTrack"
+      }, {
+        "action": "{\"command\":\"JazzClub\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "JazzClub",
+        "label": "JazzClub"
+      }, {
+        "action": "{\"command\":\"Matrix\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Matrix",
+        "label": "Matrix"
+      }, {
+        "action": "{\"command\":\"ModeGame\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "ModeGame",
+        "label": "ModeGame"
+      }, {
+        "action": "{\"command\":\"ModeMovie\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "ModeMovie",
+        "label": "ModeMovie"
+      }, {
+        "action": "{\"command\":\"ModeMusic\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "ModeMusic",
+        "label": "ModeMusic"
+      }, {
+        "action": "{\"command\":\"ModePure\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "ModePure",
+        "label": "ModePure"
+      }, {
+        "action": "{\"command\":\"MonoMovie\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "MonoMovie",
+        "label": "MonoMovie"
+      }, {
+        "action": "{\"command\":\"MovieSurround\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "MovieSurround",
+        "label": "MovieSurround"
+      }, {
+        "action": "{\"command\":\"Multeq\\\/MulteqXt\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Multeq\/MulteqXt",
+        "label": "Multeq\/MulteqXt"
+      }, {
+        "action": "{\"command\":\"MultiChStereo\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "MultiChStereo",
+        "label": "MultiChStereo"
+      }, {
+        "action": "{\"command\":\"MusicSurround\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "MusicSurround",
+        "label": "MusicSurround"
+      }, {
+        "action": "{\"command\":\"Option\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Option",
+        "label": "Option"
+      }, {
+        "action": "{\"command\":\"Preset1\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Preset1",
+        "label": "Preset1"
+      }, {
+        "action": "{\"command\":\"Preset2\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Preset2",
+        "label": "Preset2"
+      }, {
+        "action": "{\"command\":\"Preset3\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Preset3",
+        "label": "Preset3"
+      }, {
+        "action": "{\"command\":\"PureDirect\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "PureDirect",
+        "label": "PureDirect"
+      }, {
+        "action": "{\"command\":\"QuickSelect1\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "QuickSelect1",
+        "label": "QuickSelect1"
+      }, {
+        "action": "{\"command\":\"QuickSelect2\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "QuickSelect2",
+        "label": "QuickSelect2"
+      }, {
+        "action": "{\"command\":\"QuickSelect3\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "QuickSelect3",
+        "label": "QuickSelect3"
+      }, {
+        "action": "{\"command\":\"QuickSelect4\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "QuickSelect4",
+        "label": "QuickSelect4"
+      }, {
+        "action": "{\"command\":\"QuickSelect5\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "QuickSelect5",
+        "label": "QuickSelect5"
+      }, {
+        "action": "{\"command\":\"RockArena\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "RockArena",
+        "label": "RockArena"
+      }, {
+        "action": "{\"command\":\"Standard\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Standard",
+        "label": "Standard"
+      }, {
+        "action": "{\"command\":\"Stereo\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Stereo",
+        "label": "Stereo"
+      }, {
+        "action": "{\"command\":\"VideoGame\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "VideoGame",
+        "label": "VideoGame"
+      }, {
+        "action": "{\"command\":\"Virtual\",\"type\":\"IRCommand\",\"deviceId\":\"13208317\"}",
+        "name": "Virtual",
+        "label": "Virtual"
+      }]
+    }],
+    "ControlPort": 7,
+    "IsKeyboardAssociated": false,
+    "model": "AVR-1613",
+    "deviceProfileUri": "svcs.myharmony.com\/res\/device\/13208317-N+LLRWu0qn78dZwEotHylAFznY3IC6krGDnXYSqd4WY=",
+    "manufacturer": "Denon",
+    "icon": "5",
+    "isManualPower": "false"
+  }, {
+    "Transport": 1,
+    "suggestedDisplay": "DEFAULT",
+    "deviceTypeDisplayName": "PVR",
+    "label": "Raspberry Pi",
+    "id": "20385444",
+    "Capabilities": [1, 3, 5, 6, 9, 10],
+    "type": "PVR",
+    "DongleRFID": 0,
+    "controlGroup": [{
+      "name": "Power",
+      "function": [{
+        "action": "{\"command\":\"PowerToggle\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "PowerToggle",
+        "label": "Power Toggle"
+      }]
+    }, {
+      "name": "NumericBasic",
+      "function": [{
+        "action": "{\"command\":\"0\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number0",
+        "label": "0"
+      }, {
+        "action": "{\"command\":\"1\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number1",
+        "label": "1"
+      }, {
+        "action": "{\"command\":\"2\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number2",
+        "label": "2"
+      }, {
+        "action": "{\"command\":\"3\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number3",
+        "label": "3"
+      }, {
+        "action": "{\"command\":\"4\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number4",
+        "label": "4"
+      }, {
+        "action": "{\"command\":\"5\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number5",
+        "label": "5"
+      }, {
+        "action": "{\"command\":\"6\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number6",
+        "label": "6"
+      }, {
+        "action": "{\"command\":\"7\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number7",
+        "label": "7"
+      }, {
+        "action": "{\"command\":\"8\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number8",
+        "label": "8"
+      }, {
+        "action": "{\"command\":\"9\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Number9",
+        "label": "9"
+      }]
+    }, {
+      "name": "Volume",
+      "function": [{
+        "action": "{\"command\":\"Mute\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Mute",
+        "label": "Mute"
+      }, {
+        "action": "{\"command\":\"VolumeDown\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "VolumeDown",
+        "label": "Volume Down"
+      }, {
+        "action": "{\"command\":\"VolumeUp\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "VolumeUp",
+        "label": "Volume Up"
+      }]
+    }, {
+      "name": "Channel",
+      "function": [{
+        "action": "{\"command\":\"ChannelPrev\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "PrevChannel",
+        "label": "Prev Channel"
+      }, {
+        "action": "{\"command\":\"ChannelDown\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "ChannelDown",
+        "label": "Channel Down"
+      }, {
+        "action": "{\"command\":\"ChannelUp\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "ChannelUp",
+        "label": "Channel Up"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }, {
+        "action": "{\"command\":\"Select\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Select",
+        "label": "Select"
+      }]
+    }, {
+      "name": "TransportBasic",
+      "function": [{
+        "action": "{\"command\":\"Stop\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Stop",
+        "label": "Stop"
+      }, {
+        "action": "{\"command\":\"Play\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Play",
+        "label": "Play"
+      }, {
+        "action": "{\"command\":\"Rewind\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Rewind",
+        "label": "Rewind"
+      }, {
+        "action": "{\"command\":\"Pause\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Pause",
+        "label": "Pause"
+      }, {
+        "action": "{\"command\":\"FastForward\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "FastForward",
+        "label": "Fast Forward"
+      }]
+    }, {
+      "name": "TransportRecording",
+      "function": [{
+        "action": "{\"command\":\"Record\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Record",
+        "label": "Record"
+      }]
+    }, {
+      "name": "NavigationDVD",
+      "function": [{
+        "action": "{\"command\":\"Menu\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Menu",
+        "label": "Menu"
+      }]
+    }, {
+      "name": "NavigationDSTB",
+      "function": [{
+        "action": "{\"command\":\"Favorite\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Favorite",
+        "label": "Favorite"
+      }]
+    }, {
+      "name": "ColoredButtons",
+      "function": [{
+        "action": "{\"command\":\"Green\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Green",
+        "label": "Green"
+      }, {
+        "action": "{\"command\":\"Red\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Red",
+        "label": "Red"
+      }, {
+        "action": "{\"command\":\"Blue\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Blue",
+        "label": "Blue"
+      }, {
+        "action": "{\"command\":\"Yellow\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Yellow",
+        "label": "Yellow"
+      }]
+    }, {
+      "name": "NavigationExtended",
+      "function": [{
+        "action": "{\"command\":\"Guide\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Guide",
+        "label": "Guide"
+      }, {
+        "action": "{\"command\":\"Info\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Info",
+        "label": "Info"
+      }, {
+        "action": "{\"command\":\"Exit\",\"type\":\"IRCommand\",\"deviceId\":\"20385444\"}",
+        "name": "Exit",
+        "label": "Exit"
+      }]
+    }],
+    "ControlPort": 7,
+    "IsKeyboardAssociated": false,
+    "model": "IR-210",
+    "deviceProfileUri": "svcs.myharmony.com\/res\/device\/20385444-c6q7nvpJfQ9+JwixX1i532wXR081RSScDNzQGkM+bs4=",
+    "manufacturer": "i-link",
+    "icon": "18",
+    "isManualPower": "false"
+  }, {
+    "Transport": 8,
+    "suggestedDisplay": "DEFAULT",
+    "deviceTypeDisplayName": "GameConsole",
+    "label": "Wii",
+    "id": "13698589",
+    "Capabilities": [4, 5, 9, 10, 16, 20, 18],
+    "type": "GameConsole",
+    "DongleRFID": 0,
+    "controlGroup": [{
+      "name": "Power",
+      "function": [{
+        "action": "{\"command\":\"PowerToggle\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "PowerToggle",
+        "label": "Power Toggle"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }]
+    }, {
+      "name": "Miscellaneous",
+      "function": [{
+        "action": "{\"command\":\"-\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "-",
+        "label": "-"
+      }, {
+        "action": "{\"command\":\"+\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "+",
+        "label": "+"
+      }, {
+        "action": "{\"command\":\"1\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "1",
+        "label": "1"
+      }, {
+        "action": "{\"command\":\"2\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "2",
+        "label": "2"
+      }, {
+        "action": "{\"command\":\"A\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "A",
+        "label": "A"
+      }, {
+        "action": "{\"command\":\"B\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "B",
+        "label": "B"
+      }, {
+        "action": "{\"command\":\"Disconnect Wii\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "Disconnect Wii",
+        "label": "Disconnect Wii"
+      }, {
+        "action": "{\"command\":\"Home\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "Home",
+        "label": "Home"
+      }, {
+        "action": "{\"command\":\"Trackpad\",\"type\":\"IRCommand\",\"deviceId\":\"13698589\"}",
+        "name": "Trackpad",
+        "label": "Trackpad"
+      }]
+    }],
+    "ControlPort": 1,
+    "IsKeyboardAssociated": false,
+    "model": "Wii",
+    "deviceProfileUri": "svcs.myharmony.com\/res\/device\/13698589-aCeHnkhQ8rCtlh78ldAr1HSer1aQVseQCUDKKXC\/DJ0=",
+    "manufacturer": "Nintendo",
+    "icon": "9",
+    "isManualPower": "false"
+  }, {
+    "Transport": 1,
+    "suggestedDisplay": "DEFAULT",
+    "deviceTypeDisplayName": "Television",
+    "label": "LG TV",
+    "id": "13208306",
+    "Capabilities": [1, 2, 3, 5, 8, 9, 10],
+    "type": "Television",
+    "DongleRFID": 0,
+    "controlGroup": [{
+      "name": "Power",
+      "function": [{
+        "action": "{\"command\":\"PowerOff\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "PowerOff",
+        "label": "Power Off"
+      }, {
+        "action": "{\"command\":\"PowerOn\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "PowerOn",
+        "label": "Power On"
+      }, {
+        "action": "{\"command\":\"PowerToggle\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "PowerToggle",
+        "label": "Power Toggle"
+      }]
+    }, {
+      "name": "NumericBasic",
+      "function": [{
+        "action": "{\"command\":\"-\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Star",
+        "label": "*"
+      }, {
+        "action": "{\"command\":\"0\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number0",
+        "label": "0"
+      }, {
+        "action": "{\"command\":\"1\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number1",
+        "label": "1"
+      }, {
+        "action": "{\"command\":\"2\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number2",
+        "label": "2"
+      }, {
+        "action": "{\"command\":\"3\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number3",
+        "label": "3"
+      }, {
+        "action": "{\"command\":\"4\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number4",
+        "label": "4"
+      }, {
+        "action": "{\"command\":\"5\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number5",
+        "label": "5"
+      }, {
+        "action": "{\"command\":\"6\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number6",
+        "label": "6"
+      }, {
+        "action": "{\"command\":\"7\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number7",
+        "label": "7"
+      }, {
+        "action": "{\"command\":\"8\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number8",
+        "label": "8"
+      }, {
+        "action": "{\"command\":\"9\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Number9",
+        "label": "9"
+      }]
+    }, {
+      "name": "Volume",
+      "function": [{
+        "action": "{\"command\":\"Mute\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Mute",
+        "label": "Mute"
+      }, {
+        "action": "{\"command\":\"VolumeDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "VolumeDown",
+        "label": "Volume Down"
+      }, {
+        "action": "{\"command\":\"VolumeUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "VolumeUp",
+        "label": "Volume Up"
+      }]
+    }, {
+      "name": "Channel",
+      "function": [{
+        "action": "{\"command\":\"ChannelPrev\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "PrevChannel",
+        "label": "Prev Channel"
+      }, {
+        "action": "{\"command\":\"ChannelDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "ChannelDown",
+        "label": "Channel Down"
+      }, {
+        "action": "{\"command\":\"ChannelUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "ChannelUp",
+        "label": "Channel Up"
+      }]
+    }, {
+      "name": "NavigationBasic",
+      "function": [{
+        "action": "{\"command\":\"DirectionDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "DirectionDown",
+        "label": "Direction Down"
+      }, {
+        "action": "{\"command\":\"DirectionLeft\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "DirectionLeft",
+        "label": "Direction Left"
+      }, {
+        "action": "{\"command\":\"DirectionRight\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "DirectionRight",
+        "label": "Direction Right"
+      }, {
+        "action": "{\"command\":\"DirectionUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "DirectionUp",
+        "label": "Direction Up"
+      }, {
+        "action": "{\"command\":\"Enter\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Select",
+        "label": "Select"
+      }]
+    }, {
+      "name": "TransportBasic",
+      "function": [{
+        "action": "{\"command\":\"Stop\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Stop",
+        "label": "Stop"
+      }, {
+        "action": "{\"command\":\"Play\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Play",
+        "label": "Play"
+      }, {
+        "action": "{\"command\":\"Rewind\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Rewind",
+        "label": "Rewind"
+      }, {
+        "action": "{\"command\":\"Pause\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Pause",
+        "label": "Pause"
+      }, {
+        "action": "{\"command\":\"FastForward\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "FastForward",
+        "label": "Fast Forward"
+      }]
+    }, {
+      "name": "NavigationDVD",
+      "function": [{
+        "action": "{\"command\":\"Return\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Return",
+        "label": "Return"
+      }, {
+        "action": "{\"command\":\"Menu\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Menu",
+        "label": "Menu"
+      }]
+    }, {
+      "name": "Program",
+      "function": [{
+        "action": "{\"command\":\"Mark\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Bookmark",
+        "label": "Bookmark"
+      }]
+    }, {
+      "name": "NavigationDSTB",
+      "function": [{
+        "action": "{\"command\":\"Favorite\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Favorite",
+        "label": "Favorite"
+      }, {
+        "action": "{\"command\":\"List\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "List",
+        "label": "List"
+      }]
+    }, {
+      "name": "ColoredButtons",
+      "function": [{
+        "action": "{\"command\":\"Green\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Green",
+        "label": "Green"
+      }, {
+        "action": "{\"command\":\"Red\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Red",
+        "label": "Red"
+      }, {
+        "action": "{\"command\":\"Blue\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Blue",
+        "label": "Blue"
+      }, {
+        "action": "{\"command\":\"Yellow\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Yellow",
+        "label": "Yellow"
+      }]
+    }, {
+      "name": "NavigationExtended",
+      "function": [{
+        "action": "{\"command\":\"Info\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Info",
+        "label": "Info"
+      }, {
+        "action": "{\"command\":\"PageDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "PageDown",
+        "label": "Page Down"
+      }, {
+        "action": "{\"command\":\"PageUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "PageUp",
+        "label": "Page Up"
+      }, {
+        "action": "{\"command\":\"Exit\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Exit",
+        "label": "Exit"
+      }]
+    }, {
+      "name": "DisplayMode",
+      "function": [{
+        "action": "{\"command\":\"Aspect\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Aspect",
+        "label": "Aspect"
+      }]
+    }, {
+      "name": "Miscellaneous",
+      "function": [{
+        "action": "{\"command\":\"AvMode\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "AvMode",
+        "label": "AvMode"
+      }, {
+        "action": "{\"command\":\"EnergySaving\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "EnergySaving",
+        "label": "EnergySaving"
+      }, {
+        "action": "{\"command\":\"Freeze\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Freeze",
+        "label": "Freeze"
+      }, {
+        "action": "{\"command\":\"InputAv1\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputAv1",
+        "label": "InputAv1"
+      }, {
+        "action": "{\"command\":\"InputAv2\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputAv2",
+        "label": "InputAv2"
+      }, {
+        "action": "{\"command\":\"InputComponent1\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputComponent1",
+        "label": "InputComponent1"
+      }, {
+        "action": "{\"command\":\"InputComponent2\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputComponent2",
+        "label": "InputComponent2"
+      }, {
+        "action": "{\"command\":\"InputHdmi1\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputHdmi1",
+        "label": "InputHdmi1"
+      }, {
+        "action": "{\"command\":\"InputHdmi2\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputHdmi2",
+        "label": "InputHdmi2"
+      }, {
+        "action": "{\"command\":\"InputHdmi3\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputHdmi3",
+        "label": "InputHdmi3"
+      }, {
+        "action": "{\"command\":\"InputNext\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputNext",
+        "label": "InputNext"
+      }, {
+        "action": "{\"command\":\"InputRgb-Pc\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputRgb-Pc",
+        "label": "InputRgb-Pc"
+      }, {
+        "action": "{\"command\":\"InputTv\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "InputTv",
+        "label": "InputTv"
+      }, {
+        "action": "{\"command\":\"QMenu\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "QMenu",
+        "label": "QMenu"
+      }, {
+        "action": "{\"command\":\"Ratio16:9\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Ratio16:9",
+        "label": "Ratio16:9"
+      }, {
+        "action": "{\"command\":\"Ratio4:3\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Ratio4:3",
+        "label": "Ratio4:3"
+      }, {
+        "action": "{\"command\":\"RatioZoom\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "RatioZoom",
+        "label": "RatioZoom"
+      }, {
+        "action": "{\"command\":\"Simplink\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "Simplink",
+        "label": "Simplink"
+      }, {
+        "action": "{\"command\":\"TvVideo\",\"type\":\"IRCommand\",\"deviceId\":\"13208306\"}",
+        "name": "TvVideo",
+        "label": "TvVideo"
+      }]
+    }],
+    "ControlPort": 7,
+    "IsKeyboardAssociated": false,
+    "model": "50PV450",
+    "deviceProfileUri": "svcs.myharmony.com\/res\/device\/13208306-ThUUwmmTIbYd+i8YJC0s6qQXlNfCPEPPgxOk1fMHfAw=",
+    "manufacturer": "LG",
+    "icon": "1",
+    "isManualPower": "false"
+  }, {
+    "Transport": 1,
+    "suggestedDisplay": "DEFAULT",
+    "deviceTypeDisplayName": "ClimateControl",
+    "label": "Fujitsu Halcyon Inverter",
+    "id": "13208895",
+    "Capabilities": [],
+    "type": "ClimateControl",
+    "DongleRFID": 0,
+    "controlGroup": [{
+      "name": "Miscellaneous",
+      "function": [{
+        "action": "{\"command\":\"FanModeDown\",\"type\":\"IRCommand\",\"deviceId\":\"13208895\"}",
+        "name": "FanModeDown",
+        "label": "FanModeDown"
+      }, {
+        "action": "{\"command\":\"FanModeUp\",\"type\":\"IRCommand\",\"deviceId\":\"13208895\"}",
+        "name": "FanModeUp",
+        "label": "FanModeUp"
+      }, {
+        "action": "{\"command\":\"TempCooler\",\"type\":\"IRCommand\",\"deviceId\":\"13208895\"}",
+        "name": "TempCooler",
+        "label": "TempCooler"
+      }, {
+        "action": "{\"command\":\"TempHotter\",\"type\":\"IRCommand\",\"deviceId\":\"13208895\"}",
+        "name": "TempHotter",
+        "label": "TempHotter"
+      }]
+    }],
+    "ControlPort": 7,
+    "IsKeyboardAssociated": false,
+    "model": "Halcyon Inverter",
+    "deviceProfileUri": "svcs.myharmony.com\/res\/device\/13208895-tz3qwENe651zBiWMU7s6TUu\/m1NcZiB065PG43tsYWQ=",
+    "manufacturer": "Fujitsu",
+    "icon": "45",
+    "isManualPower": "true"
+  }],
+  "sequence": [],
+  "content": {
+    "contentUserHost": "https:\/\/content.dhg.myharmony.com\/1.0\/User;{userProfileUri}",
+    "contentDeviceHost": "https:\/\/content.dhg.myharmony.com\/1.0\/Device;{deviceProfileUri}",
+    "contentServiceHost": "https:\/\/content.dhg.myharmony.com\/1.0\/Service\/{providerId}",
+    "contentImageHost": "https:\/\/d1tk8oqnnsddt5.cloudfront.net\/1.0\/station\/{stationId}\/image;maxX=40;maxY=40",
+    "householdUserProfileUri": "svcs.myharmony.com\/res\/\/household\/3578532-ggn1sfeIirEk68EEVr81xwfLBpUof9IFOWA7MDxjTE0=\/user\/default"
+  },
+  "global": {
+    "timeStampHash": "44f80413-a24b-4c86-95ab-005dbbe3b372f523101e-240e-4d97-8da6-fc24f6e0db84\/40f279cb-70c4-447e-a633-1587920a3b4f8a3ec1ee-2967-4101-808d-59816ba1980023b445a2-ee6f-4572-ac8f-0e7ce48d1ce33509142Hangaren-USUSSilverlightWebClient0804431029",
+    "locale": "en-US"
+  }
+}

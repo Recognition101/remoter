@@ -1,0 +1,28 @@
+{
+    "name": "harmonyjs",
+    "description": "A personal web server to send commands to my Logitech Harmony.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/recognition101/remoter",
+    "keywords": [
+        "logitech harmony",
+        "universal remote"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/recognition101/remoter"
+    },
+    "author": {
+        "name": "Recognition101",
+        "email": "darklightmw@gmail.com"
+    },
+    "main": "remoter.js",
+    "engines": { "node": ">= 0.10.x" },
+    "dependencies": {
+        "express": "4.x",
+        "express-handlebars": "1.x",
+        "express-session": "1.7.x",
+        "body-parser": "1.6.x",
+        "compression": "1.0.x",
+        "commander": "2.x"
+    }
+}

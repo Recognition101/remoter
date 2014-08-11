@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Remoter</title>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" href="/static/icon.png"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black" />
+
+    <script src="/static/script.js" async defer></script>
+    <link href="/static/style.css" rel="stylesheet" type="text/css"
+          media="all">
+</head>
+<body>
+    <h1>Remoter</h1>
+
+    <section>
+        <h2>AC</h2>
+        <ul class="buttons">
+            <li><a href="/command/13208895/FanModeDown" class="icn-power">
+                Off
+            </a></li>
+            <li><a href="/command/13208895/TempHotter" class="icn-low">
+                Low
+            </a></li>
+            <li><a href="/command/13208895/TempCooler" class="icn-high">
+                High
+            </a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Mode</h2>
+        <ul class="buttons">
+            <li><a href="/activity/5114079" class="icn-power">All Off</a></li>
+            <li><a href="/activity/5096740" class="icn-apple">TV</a></li>
+            <li><a href="/activity/chromecast" class="icn-chrome">Cast</a></li>
+        </ul>
+    </section>
+
+    <div id="history-table">
+        {{#history}}
+            {{> history}}
+        {{/history}}
+    </div>
+
+    <a class="button" href="/?logout">log out</a>
+</body>
+</html>
