@@ -47,7 +47,7 @@ var addHistory = function addHistory(name) {
     data.history.items.unshift({
         name: name,
         timeStr: config.days[d.getDay()] + ', ' +
-                 d.getMonth() + '/' + d.getDate() + ' ' +
+                 (d.getMonth() + 1) + '/' + d.getDate() + ' ' +
                  (d.getHours() % 12) + ':' + d.getMinutes() +
                  (d.getHours() > 12 ? 'p' : 'a'),
         time: d.getTime()
