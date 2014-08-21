@@ -119,10 +119,12 @@ var hbs = exphbs.create({
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
+// cookie age = 1000 * 60 * 60 * 24 * 365
 app.use(session({
     secret: config.secrets.salt,
     resave: true,
-    saveUninitialized: true
+    saveUninitialized: true,
+    cookie: { secure: true, maxAge: 31536000000 }
 }));
 
 app.use(bodyParser.urlencoded({ extended: false }));
